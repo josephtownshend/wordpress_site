@@ -14,8 +14,9 @@ https://www.youtube.com/watch?v=fFNXWinbgro
 In Postman you can check the api with this endpoint
 `http://www.localhost:8000/wp-json`
 
-you have to make a small change in wordpress before Postman will work.
+You have to make a small change in wordpress before Postman will work.
 go to settings>permalinks and change it from `plain` to `post-name`
 
 You can have a look at posts by using this endpoint - by default you should have 1.
+
 http://www.localhost:8000/wp-json/wp/v2/posts
