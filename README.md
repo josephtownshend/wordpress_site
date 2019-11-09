@@ -19,3 +19,5 @@ go to settings>permalinks and change it from `plain` to `post-name`
 
 You can have a look at posts by using this endpoint - by default you should have 1.
 http://www.localhost:8000/wp-json/wp/v2/posts
+
+To get `localhost:8000` running you need to run the ` $ command docker-compose up -d`
